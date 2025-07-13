@@ -176,11 +176,12 @@ const HomePage = () => {
             <p className="text-lg text-gray-600 mb-8 max-w-lg">
               14+ Years of Dental Excellence, Trusted by 5000+ Smiles
             </p>
-
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <a href="/book" className="relative group">
-                <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full blur opacity-75 group-hover:opacity-100 transition-all duration-300"></div>
-                <button className="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white px-8 py-3 rounded-full hover:shadow-xl transition-all duration-300 text-center font-medium">
+                {/* Glow layer hidden on mobile, visible on sm and up */}
+                <div className="hidden sm:block absolute -inset-1 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full blur-lg opacity-75 group-hover:opacity-100 transition-all duration-300"></div>
+
+                <button className="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white px-8 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 text-center font-medium">
                   Book Appointment
                   <span className="absolute top-0 right-0 flex h-3 w-3 -mt-1 -mr-1">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-300 opacity-75"></span>
@@ -188,9 +189,11 @@ const HomePage = () => {
                   </span>
                 </button>
               </a>
+
               <a href="/Not-Found" className="relative group">
-                <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full blur opacity-75 group-hover:opacity-100 transition-all duration-300"></div>
-                <button className="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white px-8 py-3 rounded-full hover:shadow-xl transition-all duration-300 text-center font-medium">
+                <div className="hidden sm:block absolute -inset-1 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full blur-lg opacity-75 group-hover:opacity-100 transition-all duration-300"></div>
+
+                <button className="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white px-8 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 text-center font-medium">
                   Visit Our Website
                   <span className="absolute top-0 right-0 flex h-3 w-3 -mt-1 -mr-1">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-300 opacity-75"></span>
