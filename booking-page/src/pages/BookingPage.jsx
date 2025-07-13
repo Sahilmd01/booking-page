@@ -104,9 +104,9 @@ const BookingPage = () => {
               <FaStethoscope className="mr-2" />
               <span>Book Your Appointment</span>
             </div>
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">Advanced Medical Care</h1>
+            <h1 className="text-4xl font-bold text-gray-800 mb-4">AL Hasina Dental Clinic</h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Experience compassionate healthcare with modern facilities
+              Experience gentle dental care with modern technology and a personal touch
             </p>
           </div>
         </div>
@@ -142,8 +142,8 @@ const BookingPage = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">Location</h4>
-                    <p className="text-blue-100">A-123, Defence Colony</p>
-                    <p className="text-blue-100">New Delhi - 110024</p>
+                    <p className="text-blue-100">1018, 16th Main Rd, near Udupi Garden, Tavarekere, Aicobo Nagar, 1st Stage, BTM 1st Stage</p>
+                    <p className="text-blue-100">Bengaluru, Karnataka 560029</p>
                   </div>
                 </div>
 
@@ -153,7 +153,7 @@ const BookingPage = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">Timings</h4>
-                    <p className="text-blue-100">Mon-Sat: 8:00 AM - 8:00 PM</p>
+                    <p className="text-blue-100">Mon-Sat: 9:00 AM - 9:00 PM</p>
                     <p className="text-blue-100">Sun: Emergency Only</p>
                   </div>
                 </div>
