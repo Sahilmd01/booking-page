@@ -119,8 +119,8 @@ const BookingPage = () => {
                   <FaClinicMedical className="text-3xl" />
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold">MedCare Specialists</h2>
-                  <p className="text-blue-100">Multi-specialty Hospital</p>
+                  <h2 className="text-2xl font-bold text-white">AlHasina Dental Clinic</h2>
+                  <p className="text-blue-100">Dr. Sarfullah Ansari – Cosmetic Dental Surgeon</p>
                 </div>
               </div>
 
